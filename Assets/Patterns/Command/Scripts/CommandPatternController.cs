@@ -5,7 +5,7 @@ using Patterns.Command.MoveCommands;
 
 namespace Patterns.Command
 {
-    public class CommandPatternExample : MonoBehaviour
+    public class CommandPatternController : MonoBehaviour
     {
         [SerializeField] private ExampleObject exampleObject;
 

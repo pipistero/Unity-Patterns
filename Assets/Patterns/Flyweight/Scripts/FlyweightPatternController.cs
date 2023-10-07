@@ -10,7 +10,7 @@ namespace Patterns.Flyweight
         Heavy = 2
     }
     
-    public class FlyweightPatternExample : MonoBehaviour
+    public class FlyweightPatternController : MonoBehaviour
     {
         [SerializeField] private int _totalObjects = 10000000;
         [SerializeField] private ClassType _classType = ClassType.Flyweight;
