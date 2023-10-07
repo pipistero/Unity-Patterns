@@ -1,14 +1,13 @@
-using System;
 using System.Collections.Generic;
-using Patterns.Command.PaintCommands;
 using UnityEngine;
-using UnityEngine.Serialization;
+using Patterns.Command.PaintCommands;
+using Patterns.Command.MoveCommands;
 
 namespace Patterns.Command
 {
     public class CommandPatternExample : MonoBehaviour
     {
-        [FormerlySerializedAs("_moveObject")] [SerializeField] private ExampleObject exampleObject;
+        [SerializeField] private ExampleObject exampleObject;
 
         private Stack<ICommand> _commandsToUndo = new Stack<ICommand>();
         private Dictionary<KeyCode, ICommand> _buttonsBindsMap = new Dictionary<KeyCode, ICommand>();

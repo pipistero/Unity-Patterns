@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Patterns.Command
+namespace Patterns.Command.MoveCommands
 {
     public class MoveUpCommand : AbstractMoveObjectCommand
     {

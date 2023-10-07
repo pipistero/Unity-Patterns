@@ -1,4 +1,4 @@
-namespace Patterns.Command
+namespace Patterns.Command.MoveCommands
 {
     public abstract class AbstractMoveObjectCommand : ICommand
     {
